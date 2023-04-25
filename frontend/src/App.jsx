@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Main from "./pages/main";
 import Portfolio from "./pages/portfolio";
 import NotFound from "./pages/NotFound";
+import Project from "./pages/project";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Main />} />
+            <Route path="/project" element={<Project />} />
             <Route path="/portfolio/:projectId" element={<Portfolio />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
