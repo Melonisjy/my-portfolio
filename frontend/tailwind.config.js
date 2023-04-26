@@ -6,6 +6,8 @@ module.exports = {
       fontFamily: {
         body: ["Oswald", "sans-serif"],
         display: ["Roboto Condensed", "sans-serif"],
+        korean: ["Hahmlet", "serif"],
+        koreanHeader: ["IBM Plex Sans KR", "sans-serif"],
       },
     },
   },
